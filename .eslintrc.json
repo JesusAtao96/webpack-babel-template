@@ -1,0 +1,17 @@
+{
+  "extends": ["eslint:recommended", "airbnb", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "env": {
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "semi": 0,
+    "max-len": [2, 120, 2],
+    "no-console": "warn",
+    "comma-dangle": ["error", "never"],
+    "prettier/prettier": ["error"],
+    "prefer-promise-reject-errors": "off",
+    "camelcase": "off"
+  }
+}
