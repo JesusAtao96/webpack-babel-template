@@ -1,4 +1,4 @@
-import pizza from '../pizza';
+import pizza from './scripts/pizza';
 import './styles/main.scss';
 
 pizza.pepperoni();
